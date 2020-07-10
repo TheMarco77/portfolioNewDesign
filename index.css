@@ -31,3 +31,31 @@ img {
 .contact {}
 
 .footer {}
+
+
+.grid-wrapper {
+    display: grid;
+    grid-template-rows: 150px 1000px 100px 100px min-content;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:375px) {
+    body {
+        width: 100%;
+        height: 100%;
+        background-color: #CAF1FF;
+    }
+
+    .intro {
+        font-size: 18px;
+        color: #122E5E;
+
+    }
+
+    .img {
+        margin: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
